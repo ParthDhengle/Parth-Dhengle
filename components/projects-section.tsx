@@ -34,7 +34,7 @@ export default function ProjectsSection() {
       id: 3,
       title: "Streamlit Data Visualizer",
       description: "Upload, clean, analyze, and generate AI insights from data",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/InsightLab_panal.jpg?height=400&width=600",
       tags: ["Python", "Streamlit", "pandas", "scikit-learn"],
       github: "https://github.com/ParthDhengle/Insight-Lab",
       demo: "https://insightlab.streamlit.app/",
