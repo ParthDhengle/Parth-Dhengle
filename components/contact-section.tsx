@@ -143,7 +143,7 @@ export default function ContactSection() {
                     <div>
                       <h4 className="font-medium">Schedule a Meeting</h4>
                       <Button variant="link" className="p-0 h-auto" asChild>
-                        <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://calendly.com/parthdhengle12" target="_blank" rel="noopener noreferrer">
                           Book on Calendly
                         </a>
                       </Button>
