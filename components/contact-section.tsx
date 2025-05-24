@@ -155,7 +155,7 @@ export default function ContactSection() {
               <div className="flex space-x-4 mt-8">
                 <motion.div whileHover={{ y: -5 }} transition={{ type: "spring", stiffness: 400 }}>
                   <Button variant="outline" size="icon" asChild className="bg-background/80 backdrop-blur-sm">
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <a href="https://github.com/ParthDhengle" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                       <Github className="h-5 w-5" />
                     </a>
                   </Button>
@@ -163,7 +163,7 @@ export default function ContactSection() {
 
                 <motion.div whileHover={{ y: -5 }} transition={{ type: "spring", stiffness: 400 }}>
                   <Button variant="outline" size="icon" asChild className="bg-background/80 backdrop-blur-sm">
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/parth-dhengle/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                       <Linkedin className="h-5 w-5" />
                     </a>
                   </Button>
@@ -171,7 +171,7 @@ export default function ContactSection() {
 
                 <motion.div whileHover={{ y: -5 }} transition={{ type: "spring", stiffness: 400 }}>
                   <Button variant="outline" size="icon" asChild className="bg-background/80 backdrop-blur-sm">
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <a href="https://x.com/Parth_dhengle" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                       <Twitter className="h-5 w-5" />
                     </a>
                   </Button>
