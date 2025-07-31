@@ -47,8 +47,6 @@ export default function ProjectsSection() {
       description: "Real-time tracking & dashboard for pharmaceutical supply chains",
       image: "/placeholder.svg?height=400&width=600",
       tags: ["Python", "React", "MongoDB", "Express"],
-      github: "https://github.com",
-      demo: "https://demo.com",
       details:
         "(In Devlopment) A comprehensive system for tracking pharmaceutical inventory and supply chain management. Features include real-time tracking, predictive analytics for stock management, and a responsive dashboard for monitoring key metrics. The system helps reduce waste, prevent stockouts, and ensure compliance with regulatory requirements.",
     },
@@ -58,7 +56,7 @@ export default function ProjectsSection() {
       description: "AI-based daily planner based on mood, health, and context",
       image: "/placeholder.svg?height=400&width=600",
       tags: ["Python", "TensorFlow", "React", "Node.js"],
-      github: "https://github.com",
+      github: "https://github.com/ParthDhengle/Ai-assistant--extension",
       details:
         "(In Development) An intelligent productivity assistant that adapts to your daily needs. The system uses AI to analyze your mood, health data, and contextual information to create optimized daily schedules. Features include smart task prioritization, adaptive scheduling based on energy levels, and personalized productivity insights.",
     },
