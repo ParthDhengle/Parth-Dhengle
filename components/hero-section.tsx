@@ -2,11 +2,21 @@
 
 import { useRef } from "react"
 import { motion } from "framer-motion"
-import { ChevronDown } from "lucide-react"
+import { ChevronDown,Download } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
-export default function HeroSection() {
+type HeroSectionProps={
+  headline:string
+  subHeadline:string
+}
+
+export default function HeroSection(
+  {
+    headline,
+    subHeadline
+  }:HeroSectionProps
+) {
   const aboutRef = useRef<HTMLDivElement>(null)
 
   const scrollToAbout = () => {
@@ -62,11 +72,10 @@ export default function HeroSection() {
         >
           <h2 className="text-2xl font-medium text-primary">Hi, I'm Parth</h2>
           <h1 className="text-4xl md:text-5xl font-bold">
-            AI & Data Science Enthusiast | Full Stack Learner | Creative Problem Solver
+            {headline}
           </h1>
           <p className="text-lg text-muted-foreground">
-            I'm an AI & Data Science student passionate about building real-world projects, productivity tech, and smart
-            systems that make a difference.
+            {subHeadline}
           </p>
           <div className="flex space-x-4">
             <Button onClick={() => scrollToAbout()} className="relative overflow-hidden group">
@@ -81,6 +90,13 @@ export default function HeroSection() {
               <span className="relative z-10">Contact Me</span>
               <span className="absolute inset-0 bg-primary/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
             </Button>
+            
+            <a href="/resume.pdf" download>
+              <Button variant="outline" className="relative overflow-hidden group">
+                <Download className="mr-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
+                Download Resume
+              </Button>
+            </a>
           </div>
         </motion.div>
 

@@ -57,7 +57,7 @@ export default function Navbar() {
             onClick={() => scrollToSection("resume")}
             className="text-foreground hover:text-primary transition-colors"
           >
-            Resume
+            Experience
           </button>
           <button
             onClick={() => scrollToSection("contact")}

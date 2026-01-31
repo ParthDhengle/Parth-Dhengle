@@ -1,0 +1,172 @@
+{
+    "Professional_headline":"AI & Data Science Enthusiast | Full Stack Learner | Creative Problem Solver",
+    "Sub_heading":"I'm an AI & Data Science student passionate about building real-world projects, productivity tech, and smart systems that make a difference.",
+    
+    "Who_I_Am":["I'm a dedicated AI & Data Science student with a passion for creating innovative solutions to real-world problems. My journey in technology is driven by curiosity and a desire to build systems that enhance human productivity and creativity.",
+        "Currently pursuing my B.E. in Artificial Intelligence & Data Science, I'm constantly expanding my knowledge through hands-on projects, hackathons, and collaborative work."
+    ],
+    "My_Interests":["Participating in hackathons and coding competitions",
+        "Designing intuitive software solutions",
+       "Building personal productivity tools",
+        "Developing intelligent assistant systems",
+        "Exploring the intersection of AI and human creativity",
+        "Learning new technologies and frameworks"],
+
+    "skills": [
+        {
+            "title": "Programming & CS",
+            "icon": "code",
+            "content": [
+            "Python",
+            "C++",
+            "JavaScript (Pragmatic)",
+            "TypeScript (Working Knowledge)",
+            "Data Structures & Algorithms"
+            ]
+        },
+        {
+            "title": "AI / Machine Learning",
+            "icon": "cpu",
+            "content": [
+            "Machine Learning Pipelines",
+            "Scikit-learn",
+            "Pandas",
+            "NumPy",
+            "Deep Learning Fundamentals",
+            "TensorFlow (Basics)",
+            "NLP & Embeddings",
+            "RAG Systems (FAISS / Vector DBs)"
+            ]
+        },
+        {
+            "title": "Backend & Systems",
+            "icon": "server",
+            "content": [
+            "FastAPI",
+            "REST APIs",
+            "Async & Background Tasks",
+            "System Design (Modular & Scalable)"
+            ]
+        },
+        {
+            "title": "Frontend & Web",
+            "icon": "layout",
+            "content": [
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "shadcn/ui"
+            ]
+        },
+        {
+            "title": "Databases & Storage",
+            "icon": "database",
+            "content": [
+            "MySQL",
+            "MongoDB",
+            "Vector Databases"
+            ]
+        },
+        {
+            "title": "DevOps & Tools",
+            "icon": "tools",
+            "content": [
+            "Git & GitHub",
+            "Vercel",
+            "AWS (Basics)",
+            "Hugging Face",
+            "Ollama",
+            "Electron",
+            "Firebase (Auth & Firestore)"
+            ]
+        },
+        {
+            "title": "Professional & Leadership",
+            "icon": "users",
+            "content": [
+            "Ownership & Accountability",
+            "Problem Decomposition",
+            "Technical Communication",
+            "Client Interaction",
+            "Agile / Scrum Collaboration",
+            "Mentorship & Knowledge Sharing",
+            "Learning Fast & Adapting"
+            ]
+        }
+    ],
+
+    "projects": [
+        {
+            "name": "ClipHub",
+            "tagline": "Full-Stack Media Platform for Creators",
+            "description": "An end-to-end media platform enabling creators to upload, stream, and organize short video and music content with leaderboards and challenges.",
+            "image":"ClipHub_panal.png",
+            "tech": ["Next.js", "FastAPI", "Firebase", "Cloudinary"],
+            "status": "Live",
+            "github":"https://github.com/ParthDhengle/Clip-Hub",
+            "live_link":"https://www.cliphub.in/"
+        },
+        {
+            "name": "NOVA",
+            "tagline": "Agentic AI Workflow System",
+            "description": "An AI-powered assistant that plans tasks based on mood, energy, and behavior using agentic reasoning and RAG pipelines.",
+            "tech": ["FastAPI", "CrewAI", "FAISS", "Firebase", "Electron","LLMs"],
+            "status": "In Development",
+            "github":"https://github.com/ParthDhengle/crew-ai-trial",
+            "live_link":""
+        },
+        {
+            "name": "Insight Lab",
+            "tagline": "Automated Data Analysis Tool",
+            "description": "A tool that automatically analyzes datasets and generates insights and visualizations to reduce manual data analysis effort.",
+            "image":"InsightLab_panal.jpg",
+            "tech": ["Python", "Streamlit", "Pandas", "Plotly", "OpenAI API"],
+            "status": "Live",
+            "github":"https://github.com/ParthDhengle/Insight-Lab",
+            "live_link":"https://insightlab.streamlit.app/"
+        }
+    ],
+    "experience": [
+        {
+            "role": "SDE Intern (Python / Full Stack)",
+            "organization": "YCS Tech",
+            "duration": "Aug 2025 - Present",
+            "details": [
+            "Developed a full-stack battery simulation system with real-time data handling.",
+            "Implemented scalable backend services and modular system design.",
+            "Collaborated in Agile/Scrum environments with direct client interaction.",
+            "Worked on performance optimization and production-ready deployments.",
+            "Additional technical details are not disclosed due to contractual confidentiality."
+            ]
+        },
+        {
+            "role": "Machine Learning Head",
+            "organization": "Department of AI & DS",
+            "duration": "Sep 2025 - Present",
+            "details": [
+            "Led peer learning initiatives and guided students on machine learning concepts.",
+            "Provided technical direction for ML-related projects and discussions.",
+            "Encouraged collaborative problem-solving and knowledge sharing."
+            ]
+        },
+        {
+            "role": "Competitive Programming Mentor",
+            "organization": "AI Adventure",
+            "duration": "Aug 2024 - May 2025",
+            "details": [
+            "Mentored students in Python, data structures, and machine learning basics.",
+            "Focused on problem-solving strategies and applied ML concepts."
+            ]
+        },
+        {
+            "role": "Hackathon & Coding Competition Participant",
+            "organization": "Multiple Institutions",
+            "duration": "2023 - 2025",
+            "details": [
+            "Participated in multiple national-level hackathons and coding competitions.",
+            "Built end-to-end solutions under strict time constraints.",
+            "Secured top positions including first place at institute-level coding competitions."
+            ]
+        }
+    ]
+}
