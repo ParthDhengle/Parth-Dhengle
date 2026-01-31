@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { motion } from "framer-motion"
-import { Code, Database, FileCode, Github, Laptop, Cpu,Users,Server } from "lucide-react"
+import { Code, Database, FileCode, Github, Laptop, Cpu, Users, Server } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
 const iconMap = {
@@ -15,17 +15,18 @@ const iconMap = {
   users: Users,
   server: Server
 }
-type Skill={
-  title:string
-  icon: keyof typeof iconMap
-  content:string[]
+
+type Skill = {
+  title: string
+  icon: string  // Changed from keyof typeof iconMap to string
+  content: string[]
 }
 
-type SkillsSectionProps={
-  skills:Skill[]
+type SkillsSectionProps = {
+  skills: Skill[]
 }
 
-export default function SkillsSection({skills}:SkillsSectionProps) {
+export default function SkillsSection({ skills }: SkillsSectionProps) {
 
   const container = {
     hidden: { opacity: 0 },
@@ -70,19 +71,21 @@ export default function SkillsSection({skills}:SkillsSectionProps) {
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
         >
           {skills.map((category, index) => {
-            const Icon = iconMap[category.icon]
-            return(
+            // Safe type assertion with fallback
+            const Icon = iconMap[category.icon as keyof typeof iconMap] || Code
+            return (
               <motion.div
                 key={index}
                 variants={item}
                 whileHover={{ y: -5 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-              
                 <Card className="h-full backdrop-blur-sm bg-background/80 border border-primary/10 hover:border-primary/30 transition-all duration-300">
                   <CardContent className="p-6">
                     <div className="flex items-center mb-4">
-                      <div className="mr-3 p-2 rounded-md bg-primary/10 text-primary"><Icon className="h-6 w-6" /></div>
+                      <div className="mr-3 p-2 rounded-md bg-primary/10 text-primary">
+                        <Icon className="h-6 w-6" />
+                      </div>
                       <h3 className="text-xl font-semibold">{category.title}</h3>
                     </div>
                     <ul className="space-y-2">

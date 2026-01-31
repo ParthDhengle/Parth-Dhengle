@@ -17,7 +17,7 @@ interface Project {
   name: string
   tagline: string
   description: string
-  image: string
+  image?: string
   tech: string[]
   status: string
   github?: string
